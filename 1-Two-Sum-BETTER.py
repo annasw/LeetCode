@@ -3,7 +3,7 @@ So my "old" leetcode acct is gone
 (which is actually fine and part of the reason why i have this github)
 but i'm gonna try to improve on my old solutions anyway.
 (Slash practice so I remember them better.)
-This is an improvement ot my old Two-Sum solution.
+This is an improvement to my old Two-Sum solution.
 That one ran in O(n^2);
 This one runs in O(n).
 Thanks, hashtables (and better algorithms skills)!
