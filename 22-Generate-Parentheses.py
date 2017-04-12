@@ -7,7 +7,7 @@ class Solution(object):
         and fragment (to track the current string fragment).
     '''
     def recursiveParens(self, n, openPs, closePs, fragment):
-        if len(fragment) == n*2: # the list is full
+        if len(fragment) == n*2: # the string is full
             return [fragment]
 
         results = []
@@ -28,4 +28,3 @@ class Solution(object):
         if n==0: return ''
         
         return self.recursiveParens(n, 0, 0, '')
-        
