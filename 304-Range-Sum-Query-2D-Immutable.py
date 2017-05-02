@@ -44,7 +44,6 @@ class NumMatrix(object):
         # minus the sum of the horizontal part above (i.e. (row1-1,col2) IF row1>0)
         # minus the sum of the vertical part to the left (i.e. (row2,col1-1) if col1>0)
         # plus the double-subtracted part ((row1-1,row2-1) if both row1>0 and row2>0.
-        
         result = self.sumGrid[row2][col2]
         if row1>0: result -= self.sumGrid[row1-1][col2]
         if col1>0: result -= self.sumGrid[row2][col1-1]
