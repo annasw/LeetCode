@@ -5,6 +5,7 @@ class Solution(object):
         :rtype: int
         """
         # this is way easier to think about as decrementing one number
+        # and obviously you just decrement each number to the min number in turn
         
         minElt = min(nums)
         return sum([n-minElt for n in nums])
