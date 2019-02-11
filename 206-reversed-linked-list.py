@@ -57,7 +57,6 @@ class Solution:
         return j'''
         
         # but now i don't think so.
-        # i think it's just
         # because see i'm a good programmer w good habits
         # so i tried to debug it
         
