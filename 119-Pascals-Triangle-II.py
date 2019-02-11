@@ -1,8 +1,4 @@
 class Solution:
-    # runs very fast
-    # but uses like a huge amount of space
-    # not sure why
-    # possibly/probably something weird w/ leetcode
     def getRow(self, rowIndex: 'int') -> 'List[int]':
         # so this exists
         # https://en.wikipedia.org/wiki/Pascal%27s_triangle#Calculating_a_row_or_diagonal_by_itself
