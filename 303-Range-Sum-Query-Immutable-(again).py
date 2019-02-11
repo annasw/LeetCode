@@ -7,7 +7,7 @@ class NumArray:
         self.sums = []
         
         tot = 0
-        for i in nums:
+        for i in self.nums:
             tot += i
             self.sums.append(tot)
         
