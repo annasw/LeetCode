@@ -7,9 +7,7 @@ class LRUCache:
         
 
     def get(self, key: 'int') -> 'int':
-        # re: follow-up: this actually does run in linear time
-        # (in the average case)
-        
+
         self.age += 1
         
         if self.cap <= 0: return -1
