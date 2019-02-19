@@ -1,7 +1,5 @@
 class Solution {
     // oh god i haven't written in java for so long
-    // this is probably all immature and bad
-    // don't judge me it's been like six years since i wrote seriously in java
     public List<String> fizzBuzz(int n) {
         ArrayList<String> numbers = new ArrayList<String>();
         for (int i=1; i<=n; i++) {
