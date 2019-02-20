@@ -13,4 +13,4 @@ class Solution {
         }
         return nextGreaters; // this is it. what it's all been for. you're welcome, america.
     }
-}
+} // runs faster than 5.00% of java submissions
