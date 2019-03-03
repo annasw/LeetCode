@@ -18,7 +18,7 @@ public:
    So instead of thinking of a good solution like a real programmer
    I just converted the program into C++
    (using my poor memory of C++ and my slightly better memory of Java,
-   which is basically C++ but without [manual] garbage collection)
+   which is basically C++ but without [manual] garbage collection and POINTERS)
    just to see if the same program would run in time in a faster language.
    And it did, and I think that's funny, so I didn't write a faster version.
    So enjoy the O(n^2) solution.
