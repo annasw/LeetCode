@@ -10,6 +10,6 @@ class Solution:
         
         n = int("".join([str(i) for i in digits])) # this is how much i hate your stupid problem
         n += 1 # lmao
-        return [int(i) for i in str(n)] # okay so maybe this is horribly ugly and unpythonic but um
+        return [int(i) for i in str(n)]
         
         # fr i would do the actual problem if i didn't like changing python datatypes so much but <3
